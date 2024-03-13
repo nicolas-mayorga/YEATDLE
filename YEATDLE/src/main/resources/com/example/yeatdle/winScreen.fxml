@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="949.0" prefWidth="1068.0" style="-fx-background-color: #2a2923;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yeatdle.HelloController">
+   <center>
+      <AnchorPane prefHeight="634.0" prefWidth="1068.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#474a4d" height="661.0" layoutX="205.0" layoutY="95.0" opacity="0.97" stroke="BLACK" strokeType="INSIDE" width="695.0" />
+            <Text fill="#aaf5ab" layoutX="241.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONGRATULATIONS!" wrappingWidth="634.13671875">
+               <font>
+                  <Font size="65.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </center>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <AnchorPane prefHeight="111.0" prefWidth="1068.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#aaf5ab" layoutX="300.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yeatdle" textAlignment="CENTER" wrappingWidth="469.0">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="120.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

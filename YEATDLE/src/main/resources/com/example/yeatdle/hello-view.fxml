@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="949.0" prefWidth="1068.0" style="-fx-background-color: #2a2923;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.yeatdle.HelloController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle fx:id="howToBox" arcHeight="5.0" arcWidth="5.0" fill="#7a7c6e" height="599.0" layoutX="169.0" layoutY="-34.0" stroke="#aaf5ab" strokeType="OUTSIDE" strokeWidth="5.0" width="765.0" />
+            <ImageView fx:id="albums" fitHeight="432.0" fitWidth="813.0" layoutX="151.0" layoutY="180.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@New%20Project%20(2).png" />
+               </image>
+            </ImageView>
+            <Text fx:id="howToText" fill="#e4e4e4" layoutX="185.0" layoutY="4.0" stroke="#6f6f6f" strokeType="OUTSIDE" strokeWidth="0.0" text="- You get five guesses to guess a mystery song from any of Yeat's 4 studio albums!&#10;&#10;- Green in any column  indicates a complete match!&#10;&#10;- Yellow in the album or track number column  indicates that this attribute is within 2 (albums or tracks),&#10;   with an arrow hinting if it is higher ( ↑ ) or lower ( ↓ ).&#10;&#10;- Yellow in the track length column  indicates that the song length is within 30 seconds, with &#10;   an arrow hinting if it is higher ( ↑ ) or lower ( ↓ ).&#10;&#10;- Yellow in the features column  indicates that at least one of the featured artists is correct." wrappingWidth="744.7470703125">
+               <font>
+                  <Font name="Segoe UI" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="498.0" layoutY="467.0" mnemonicParsing="false" onAction="#playButton" prefHeight="49.0" prefWidth="108.0" text="PLAY" />
+         </children>
+      </AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="202.0" prefWidth="1067.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="#aaf5ab" layoutX="299.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yeatdle" textAlignment="CENTER" wrappingWidth="469.0">
+               <font>
+                  <Font name="Segoe MDL2 Assets" size="120.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>
