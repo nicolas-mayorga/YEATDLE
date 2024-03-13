@@ -68,7 +68,7 @@ public class loseScreenController {
         Image upTwoMe = new Image(stream1);
         Image twoAlive = new Image(stream2);
         Image lyfe = new Image(stream3);
-        Image afterlyfe = new Image(stream4);
+        Image afterLyfe = new Image(stream4);
         int albumId = getQueries.getAlbumNum(input);
 
         if (albumId == 1) {
@@ -78,7 +78,7 @@ public class loseScreenController {
         } else if (albumId == 3) {
             winScreenPicture.setImage(lyfe);
         } else {
-            winScreenPicture.setImage(afterlyfe);
+            winScreenPicture.setImage(afterLyfe);
         }
     }
 }
