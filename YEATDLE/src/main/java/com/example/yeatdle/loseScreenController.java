@@ -37,10 +37,10 @@ public class loseScreenController {
     }
     public void setLoseSongPicture(String input) throws FileNotFoundException {
 
-        InputStream stream1 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\up2me.png");
-        InputStream stream2 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\geekpack.jpeg");
-        InputStream stream3 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\lyfe.jpeg");
-        InputStream stream4 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\afterlyfe.jpeg");
+        InputStream stream1 = new FileInputStream("C:\\Desktop\\yeatdlepics\\up2me.png");
+        InputStream stream2 = new FileInputStream("C:\\Desktop\\yeatdlepics\\geekpack.jpeg");
+        InputStream stream3 = new FileInputStream("C:\\Desktop\\yeatdlepics\\lyfe.jpeg");
+        InputStream stream4 = new FileInputStream("C:\\Desktop\\yeatdlepics\\afterlyfe.jpeg");
 
         Image upTwoMe = new Image(stream1);
         Image twoAlive = new Image(stream2);
@@ -60,10 +60,10 @@ public class loseScreenController {
     }
     public void setWinScreenPicture(String input) throws FileNotFoundException {
 
-        InputStream stream1 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\up2me.png");
-        InputStream stream2 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\geekpack.jpeg");
-        InputStream stream3 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\lyfe.jpeg");
-        InputStream stream4 = new FileInputStream("C:\\Users\\nmayo\\OneDrive\\Desktop\\yeatdlepics\\afterlyfe.jpeg");
+        InputStream stream1 = new FileInputStream("C:\\Desktop\\yeatdlepics\\up2me.png");
+        InputStream stream2 = new FileInputStream("C:\\Desktop\\yeatdlepics\\geekpack.jpeg");
+        InputStream stream3 = new FileInputStream("C:\\Desktop\\yeatdlepics\\lyfe.jpeg");
+        InputStream stream4 = new FileInputStream("C:\\Desktop\\yeatdlepics\\afterlyfe.jpeg");
 
         Image upTwoMe = new Image(stream1);
         Image twoAlive = new Image(stream2);
